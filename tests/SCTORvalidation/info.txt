@@ -1,0 +1,7 @@
+Tests for package SCTORvalidation
+- convert_downloads_to_score, convert_deps_to_score: scores for a few counts, calculated by hand
+- calculate_pkg_score: best and worst case, two cases near the limits, dplyr 1.2.0 from issue #178
+- validate_pkg_issue: valid and invalid assessment
+- get_n_deps: counts from a small DESCRIPTION file
+
+The tests run offline, no GitHub token needed.
