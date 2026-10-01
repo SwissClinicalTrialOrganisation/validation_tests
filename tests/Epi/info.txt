@@ -1,9 +1,0 @@
-Tests for package Epi version 2.66
-Tests for the twoby2() function for the intended use:
-- estimation of the probability difference and its 95% confidence interval
-- estimation of the relative risk and its 95% Wald confidence interval
-- calculation of the exact p-value using Fisher's exact test
-- calculation of the asymptotic p-value
-- correct results for small event counts, including zero events
-- correct direction of the probability difference and relative risk when treatment groups are reversed
-- correct treatment-effect orientation for the intended analysis
