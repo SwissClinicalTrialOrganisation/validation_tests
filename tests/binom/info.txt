@@ -1,0 +1,9 @@
+This test verifies the binom.confint function from the binom package.
+
+It checks the behavior of binom::binom.confint across the following methods:
+"exact", "ac", "asymptotic", "wilson", "prop.test", "bayes", "logit", "cloglog",
+and "probit".
+
+For each method, the function is called with a variety of input triples
+(x, n, conf.level). The output of "mean", "lower", "upper" is then compared to
+expected results computed independently of the binom package.
