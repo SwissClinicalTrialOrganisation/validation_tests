@@ -1,0 +1,9 @@
+Tests for package exact2x2 version 1.7.0
+
+Tests for the exact2x2() function for the intended use:
+
+- calculation of two-sided exact p-values, odds ratios and corresponding 95% confidence intervals using minlike, central and blaker
+- comparison with published reference results from Fay (2009) and stats::fisher.test()
+- correct results for small samples, zero cells and equal proportions
+- equivalent results for vector and contingency table input
+- consistency between p-values and confidence intervals
